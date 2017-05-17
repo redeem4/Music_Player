@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="auto"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 unknown"
+   sodipodi:docname="cdicon_centered.svg"
+   inkscape:export-filename="/media/noah/noah_hdd/noah_files/pictures/cdicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <title
+     id="title4560">Disk and Note Icon</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="120.22934"
+     inkscape:cy="119.90093"
+     inkscape:document-units="px"
+     inkscape:current-layer="SVGRoot"
+     showgrid="true"
+     inkscape:window-width="1860"
+     inkscape:window-height="1051"
+     inkscape:window-x="60"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid34" />
+  </sodipodi:namedview>
+  <defs
+     id="defs18">
+    <linearGradient
+       id="linearGradient4976"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#bfbfbf;stop-opacity:1;"
+         offset="0"
+         id="stop4974" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2652"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#3366cc;stop-opacity:1;"
+         offset="0"
+         id="stop2650" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4619"
+       x="-0.006"
+       width="1.012"
+       y="-0.006"
+       height="1.012">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.16"
+         id="feGaussianBlur4621" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4631"
+       x="-0.006"
+       width="1.012"
+       y="-0.006"
+       height="1.012">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.16"
+         id="feGaussianBlur4633" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Disk and Note Icon</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:date>2017-03-14</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Noah Davis</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="disk-group"
+     inkscape:groupmode="layer"
+     inkscape:label="Disk"
+     style="display:inline">
+    <ellipse
+       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.20031495;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="disk-shadow"
+       cx="128"
+       cy="129.30415"
+       rx="125.33334"
+       ry="125.30415" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#e0e0e0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="disk-main"
+       cx="128"
+       cy="126.66666"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       rx="125.33334"
+       ry="125.33332" />
+    <ellipse
+       style="fill:#202020;fill-opacity:1;stroke-width:7.38398933;stroke-miterlimit:4;stroke-dasharray:none"
+       id="disk-hole"
+       cx="128"
+       cy="127.94791"
+       rx="20.695763"
+       ry="21.302084" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:0;fill-rule:nonzero;stroke:#404040;stroke-width:4.15748024;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="disk-inner-shadow"
+       cx="128"
+       cy="127.99999"
+       r="22.666666" />
+    <circle
+       style="fill:none;stroke:#808080;stroke-width:9.07086658;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="disk-inner"
+       cx="128"
+       cy="126.66666"
+       r="26.666666" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="marks-group"
+     inkscape:label="Marks"
+     style="display:inline">
+    <g
+       id="marks"
+       transform="translate(5.0862618e-6,-1.3333333)">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="nw-mark"
+         d="M 64,128 C 64,90.666667 96,64 128,64"
+         style="fill:none;stroke:#808080;stroke-width:1.51181102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4631)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="se-mark"
+         d="m 192,128 c 0,37.33333 -32,64 -64,64"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#808080;stroke-width:1.51181102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4619)" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="note-group"
+     inkscape:label="Note"
+     style="display:inline">
+    <g
+       transform="translate(1.5258787e-5,1.3333283)"
+       id="note-shadow"
+       style="display:inline;fill:#003399;stroke:#003399;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <g
+         style="fill:#003399;stroke:#003399;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="note-shadow-body">
+        <rect
+           style="opacity:1;fill:#003399;fill-opacity:1;stroke:#003399;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="note-shadow-body-stem"
+           width="10.666677"
+           height="170.66667"
+           x="122.66666"
+           y="32" />
+        <ellipse
+           style="opacity:1;fill:#003399;fill-opacity:1;stroke:#003399;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="note-shadow-body-bottom"
+           cx="96"
+           cy="202.66667"
+           rx="37.333332"
+           ry="21.333334" />
+      </g>
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="note-shadow-flag"
+         d="M 133.33333,32 C 160,58.666667 192,58.666667 192,58.666667 v 26.666666 c 0,0 -32,5.333334 -58.66667,-21.333333 z"
+         style="fill:#003399;fill-opacity:1;stroke:#003399;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </g>
+    <g
+       id="note-main"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="translate(5.0862618e-6,-1.3333333)">
+      <g
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="note-main-body">
+        <rect
+           style="opacity:1;fill:#3366cc;fill-opacity:1;stroke:#3366cc;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="note-main-body-stem"
+           width="10.666677"
+           height="170.66667"
+           x="122.66666"
+           y="32" />
+        <ellipse
+           style="opacity:1;fill:#3366cc;fill-opacity:1;stroke:#3366cc;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="note-main-body-bottom"
+           cx="96"
+           cy="202.66667"
+           rx="37.333332"
+           ry="21.333334" />
+      </g>
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="note-main-flag"
+         d="M 133.33333,32 C 160,58.666667 192,58.666667 192,58.666667 v 26.666666 c 0,0 -32,5.333334 -58.66667,-21.333333 z"
+         style="fill:#3366cc;fill-opacity:1;stroke:#3366cc;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </g>
+  </g>
+</svg>
