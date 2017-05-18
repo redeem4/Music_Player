@@ -1,13 +1,15 @@
-import QtQuick 2.7
-import QtQuick.Controls 1.5
-import QtQuick.Dialogs 1.2
+import QtQuick 2.5
+import QtQuick.Controls 1.4
 
 ApplicationWindow {
+    id: applicationWindow
     visible: true
-    width: 640
-    height: 480
+    width: 1024
+    height: 768
     title: qsTr("YAMA Music Player")
-
+    
+    // This cannot be moved to another file since
+    // it is a property of ApplicationWindow
     menuBar: MenuBar {
         Menu {
             title: qsTr("File")
@@ -41,118 +43,37 @@ ApplicationWindow {
             }
         }
     }
-
-    MessageDialog {
-        id: messageDialog
-        title: qsTr("May I have your attention, please?")
-
-        function show(caption) {
-            messageDialog.text = caption;
-            messageDialog.open();
-        }
+    
+    ArtView {
+        id: artView
+        y: 373
+        width: 192
+        height: 192
+        anchors.left: parent.left
+        anchors.bottom: parent.bottom
     }
 
-    GroupBox {
-        id: groupBox
-        x: 159
-        y: 352
-        width: 481
-        height: 128
-        title: qsTr("")
-
-        Button {
-            id: button
-            x: 0
-            y: 21
-            width: 55
-            height: 47
-            text: qsTr("Play")
-        }
-
-        Button {
-            id: button1
-            x: 61
-            y: 33
-            width: 30
-            height: 26
-            text: qsTr("Previous")
-        }
-
-        Button {
-            id: button2
-            x: 97
-            y: 33
-            width: 30
-            height: 26
-            text: qsTr("Stop")
-        }
-
-        Button {
-            id: button3
-            x: 133
-            y: 33
-            width: 30
-            height: 26
-            text: qsTr("Next")
-        }
-
-        Button {
-            id: button4
-            x: 178
-            y: 33
-            width: 30
-            height: 26
-            text: qsTr("Loop")
-        }
-
-        Button {
-            id: button5
-            x: 214
-            y: 33
-            width: 30
-            height: 26
-            text: qsTr("Random")
-        }
-
-        Slider {
-            id: sliderHorizontal
-            x: 265
-            y: 37
-        }
+    QuickNavigationList {
+        id: quickNavigationList
+        anchors.right: artView.right
+        anchors.bottom: artView.top
+        anchors.left: parent.left
+        anchors.top: parent.top
     }
-
-    Image {
-        id: image
-        x: 0
-        y: 352
-        width: 158
-        height: 128
-        source: "qrc:/qtquickplugin/images/template_image.png"
+    
+    PlaybackControls {
+        id: playbackControls
+        height: 32
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        anchors.left: artView.right
     }
-
-    GroupBox {
-        id: groupBox2
-        x: 0
-        y: 0
-        width: 158
-        height: 351
-        title: qsTr("File System Viewer")
-    }
-
-    GroupBox {
-        id: groupBox1
-        x: 159
-        y: 0
-        width: 481
-        height: 72
-        title: qsTr("Tab Bar")
-    }
-
-    MainForm {
-        id: mainForm
-        x: 159
-        y: 72
-        width: 481
-        height: 279
+    
+    Tabs {
+        id: tabs
+        anchors.bottom: playbackControls.top
+        anchors.right: parent.right
+        anchors.left: artView.right
+        anchors.top: parent.top
     }
 }
