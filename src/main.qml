@@ -5,7 +5,9 @@ ApplicationWindow {
     id: applicationWindow
     visible: true
     width: 1024
-    height: 768
+    height: 800
+    minimumHeight: 500
+    minimumWidth: 800
     title: qsTr("YAMA Music Player")
     
     // This cannot be moved to another file since
@@ -63,7 +65,7 @@ ApplicationWindow {
     
     PlaybackControls {
         id: playbackControls
-        height: 32
+        height: 40
         anchors.bottom: parent.bottom
         anchors.right: parent.right
         anchors.left: artView.right
