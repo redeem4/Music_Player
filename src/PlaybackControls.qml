@@ -25,6 +25,7 @@ Item {
             width: 40
             height: 40
             text: qsTr("Play")
+            onClicked: audio.play_on_click();
         }
         
         Button {
@@ -39,6 +40,7 @@ Item {
             width: 40
             height: 40
             text: qsTr("Stop")
+            onClicked: audio.stop_on_click();
         }
         
         Button {
@@ -54,12 +56,23 @@ Item {
             height: 40
             text: qsTr("Loop")
         }
+
+        Button {
+            id: mute
+            width: 40
+            height: 40
+            text: qsTr("Mute")
+            onClicked: audio.mute_on_click();
+        }
         
         Slider {
-            id: seekBar
+            id: volumeBar
             maximumValue: 200.0
             stepSize: 1.0
+            value: 0.0
+            tickmarksEnabled: true
             anchors.verticalCenter: parent.verticalCenter
+            onValueChanged: audio.on_sliderVolume_sliderMoved(volumeBar.value)
         }
     }
 }

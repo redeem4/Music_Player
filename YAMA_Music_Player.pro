@@ -1,11 +1,12 @@
 TEMPLATE = app
 
-QT += qml quick widgets
+QT += qml quick widgets multimedia
 
 CONFIG += c++11
 
 SOURCES += \
-    src/main.cpp
+    src/main.cpp \
+    src/audio.cpp
 
 RESOURCES += \
     src/qml.qrc
@@ -34,3 +35,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     README.md
+
+HEADERS += \
+    src/audio.h

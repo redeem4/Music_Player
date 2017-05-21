@@ -5,7 +5,7 @@
 Audio::Audio(QObject *parent) : QObject(parent)
 {
     player = new QMediaPlayer(this);
-    on_sliderVolume_sliderMoved(100);
+    on_sliderVolume_sliderMoved(20);
 }
 
 //A Function to Play Audio When the Play Button is Pressed
