@@ -6,5 +6,7 @@
         <file>QuickNavigationList.qml</file>
         <file>Tabs.qml</file>
         <file>Playlist.qml</file>
+        <file>AlbumGrid.qml</file>
+        <file>VolumeControl.qml</file>
     </qresource>
 </RCC>
