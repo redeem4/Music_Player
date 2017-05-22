@@ -24,19 +24,19 @@ ApplicationWindow {
                 onTriggered: Qt.quit();
             }
         }
-
+        
         Menu {
             title: qsTr("Playback")
         }
-
+        
         Menu {
             title: qsTr("Audio")
         }
-
+        
         Menu {
             title: qsTr("View")
         }
-
+        
         Menu {
             title: qsTr("Help")
             MenuItem {
@@ -46,6 +46,7 @@ ApplicationWindow {
         }
     }
     
+    
     ArtView {
         id: artView
         y: 373
@@ -54,7 +55,9 @@ ApplicationWindow {
         anchors.left: parent.left
         anchors.bottom: parent.bottom
     }
-
+    
+    
+    
     QuickNavigationList {
         id: quickNavigationList
         anchors.right: artView.right
@@ -63,13 +66,17 @@ ApplicationWindow {
         anchors.top: parent.top
     }
     
+    
+    
     PlaybackControls {
         id: playbackControls
         height: 40
         anchors.bottom: parent.bottom
-        anchors.right: parent.right
         anchors.left: artView.right
     }
+    
+    
+    
     
     Tabs {
         id: tabs
@@ -77,5 +84,11 @@ ApplicationWindow {
         anchors.right: parent.right
         anchors.left: artView.right
         anchors.top: parent.top
+    }
+    
+    VolumeControl {
+        id: volumeControl
+        anchors.bottom: parent.bottom
+        anchors.left: playbackControls.right
     }
 }

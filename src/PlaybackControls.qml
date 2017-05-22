@@ -2,11 +2,12 @@ import QtQuick 2.5
 import QtQuick.Controls 1.4
 
 Item {
+    id: item1
+    width: 280
+    height: 40
     
     Row {
         id: row
-        anchors.right: parent.right
-        anchors.rightMargin: 248
         anchors.left: parent.left
         anchors.leftMargin: 0
         anchors.top: parent.top
@@ -65,14 +66,5 @@ Item {
             onClicked: audio.mute_on_click();
         }
         
-        Slider {
-            id: volumeBar
-            maximumValue: 200.0
-            stepSize: 1.0
-            value: 0.0
-            tickmarksEnabled: true
-            anchors.verticalCenter: parent.verticalCenter
-            onValueChanged: audio.on_sliderVolume_sliderMoved(volumeBar.value)
-        }
     }
 }
