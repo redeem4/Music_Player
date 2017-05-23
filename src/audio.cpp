@@ -4,12 +4,13 @@
 //sets the default starting value of the volume bar.
 Audio::Audio(QObject *parent) : QObject(parent) {
     player = new QMediaPlayer(this);
-    on_sliderVolume_sliderMoved(20);
 }
 
 //A Function to Play Audio When the Play Button is Pressed
+//Note: There are two hardcoded music files for easy access for both of us.
 void Audio::play_on_click() {
-    player->setMedia(QUrl::fromLocalFile("/run/media/noah/noah_hdd/noah_files/src/YAMA_Music_Player/test_audio/drumsticks.wav"));
+    //player->setMedia(QUrl::fromLocalFile("/run/media/noah/noah_hdd/noah_files/src/YAMA_Music_Player/test_audio/drumsticks.wav"));
+    player->setMedia(QUrl::fromLocalFile("C:/Users/Dale/Desktop/YAMA_Music_Player-master/test_audio/Aries_Beats_-_Retro_Wave.mp3"));
     player->play();
 }
 
