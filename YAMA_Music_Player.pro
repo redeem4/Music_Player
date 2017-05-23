@@ -6,7 +6,7 @@ CONFIG += c++11
 
 SOURCES += \
     src/main.cpp \
-    src/audio.cpp
+    src/audio.cpp \
 
 RESOURCES += \
     src/qml.qrc

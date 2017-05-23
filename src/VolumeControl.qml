@@ -30,9 +30,9 @@ Item {
         visible: volumeButton.checked
         anchors.bottom: volumeButton.top
         orientation: Qt.Vertical
-        maximumValue: 200.0
+        maximumValue: 100.0
         stepSize: 5.0
-        value: 0.0
+        value: 80.0
         tickmarksEnabled: true
         onValueChanged: audio.on_sliderVolume_sliderMoved(volumeBar.value)
     }

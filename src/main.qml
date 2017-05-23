@@ -1,5 +1,6 @@
 import QtQuick 2.5
 import QtQuick.Controls 1.4
+import QtQuick.Dialogs 1.0
 
 ApplicationWindow {
     id: applicationWindow
@@ -17,8 +18,9 @@ ApplicationWindow {
             title: qsTr("File")
             MenuItem {
                 text: qsTr("&Open")
-                onTriggered: console.log("Open action triggered");
+                onTriggered: fileOpenDialog.visible = true
             }
+
             MenuItem {
                 text: qsTr("Exit")
                 onTriggered: Qt.quit();
@@ -46,7 +48,19 @@ ApplicationWindow {
         }
     }
     
-    
+    //Dialog Box that opens when you select "Open" from the File Menu
+    FileDialog {
+        id: fileOpenDialog
+        title: "Please choose a file"
+        folder: shortcuts.home
+        onAccepted: {
+            console.log("You chose: " + fileDialog.fileUrls)
+        }
+        onRejected: {
+            console.log("Canceled")
+        }
+    }
+
     ArtView {
         id: artView
         y: 373
@@ -76,8 +90,6 @@ ApplicationWindow {
     }
     
     
-    
-    
     Tabs {
         id: tabs
         anchors.bottom: playbackControls.top
@@ -87,7 +99,6 @@ ApplicationWindow {
     }
     
     VolumeControl {
-        id: volumeControl
         anchors.bottom: parent.bottom
         anchors.left: playbackControls.right
     }
