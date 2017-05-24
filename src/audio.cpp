@@ -1,4 +1,5 @@
 #include "audio.h"
+#include <QDebug>
 
 //Default Constructor which initializes the Media Player and
 //sets the default starting value of the volume bar.
@@ -11,6 +12,13 @@ Audio::Audio(QObject *parent) : QObject(parent) {
 void Audio::play_on_click() {
     //player->setMedia(QUrl::fromLocalFile("/run/media/noah/noah_hdd/noah_files/src/YAMA_Music_Player/test_audio/drumsticks.wav"));
     player->setMedia(QUrl::fromLocalFile("C:/Users/Dale/Desktop/YAMA_Music_Player-master/test_audio/Aries_Beats_-_Retro_Wave.mp3"));
+    player->play();
+}
+
+//Overloaded Play Function that gets the filepath from the listView and plays that audio.
+//Note: This will most likely be the main way of playing audio in the program, but I'm keeping the default in until I get everything settled.
+void Audio::play_on_click(QString filePath) {
+    player->setMedia(QUrl::fromLocalFile(filePath));
     player->play();
 }
 

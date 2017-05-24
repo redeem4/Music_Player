@@ -3,7 +3,7 @@ import QtQuick.Controls 1.0
 
 Item {
     anchors.fill: parent
-    
+
     Grid {
         id: grid
         anchors.fill: parent
