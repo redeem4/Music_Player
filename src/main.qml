@@ -54,7 +54,7 @@ ApplicationWindow {
         title: "Please choose a file"
         folder: shortcuts.home
         onAccepted: {
-            console.log("You chose: " + fileDialog.fileUrls)
+            console.log("You chose: " + fileOpenDialog.fileUrls)
         }
         onRejected: {
             console.log("Canceled")
